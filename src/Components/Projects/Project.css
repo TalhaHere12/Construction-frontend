@@ -1,0 +1,69 @@
+.Project img{
+    width: 100%;
+    height: 500px;
+}
+.bg-img{
+    position: relative;
+    top: 900px;
+}
+.Project-title{
+    color: #F14837;
+    position: absolute;
+    top: 90px;
+    left: 50px;
+}
+.Project-heading{
+    position: absolute;
+    top: 80px;
+    color: #FFFFFF;
+    font-size: 50px;
+    left: 40px;
+    font-weight: bold;
+}
+.project-grid{
+    position: absolute;
+    top: 250px;
+    left: 15px;
+}
+.project-grid img{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
+.project-grid2{
+    position: absolute;
+    left: 430px;
+    top: 250px;
+}
+.project-grid2 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+
+}
+.project-grid3{
+    position: absolute;
+    left: 850px;
+    top: 250px;
+}
+.project-grid3 img{
+    height: 400px;
+    width: 400px;
+    border-radius: 5px;
+}
+
+.button-grid{
+    position: absolute;
+    top: 140px;
+    left: 990px;
+}
+.button-grid button{
+    background-color: #F14837;
+    padding: 19px;
+    padding-left: 30px;
+    padding-right: 30px;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px;
+    font-weight: bold;
+}

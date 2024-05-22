@@ -1,0 +1,139 @@
+.Grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 90px;
+    background-color: #F5F7FC;
+    margin-top: 40px;
+}
+.input-fields{
+    display: flex;
+    flex-direction: column;
+}
+.input1,
+.inputs {
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 15px;
+  width: 600px;
+  margin-left: 50px;
+}
+.inputs:focus{
+    border-color: red;
+    outline: none;
+}
+.sub-title{
+    margin-left: 45px;
+    font-weight: bold;
+    font-size: 40px;
+    color: #172B57;
+}
+.title{
+    color: #F14837;
+    font-weight: bold;
+    margin-left: 50px;
+    /* font-weight: bold; */
+    /* margin-bottom: -20px; */
+}
+.input1{
+    height: 200px;
+    text-align: start;
+}
+.Button{
+    margin-top: 70px;
+    width: 150px;
+    margin-left: 50px;
+    padding: 10px;
+    background-color: #F14837;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-style:none;
+    border-radius: 5px;
+    margin-bottom: 35px;
+}
+.input1:focus{
+    border-color: red;
+    outline: none;
+}
+.Address{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+}
+.address-title{
+    font-weight: bold;
+    font-size: 40px;
+}
+.Map{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+.map-image{
+    width: 30px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.map-des{
+    margin-top: 50px;
+    margin-left: -75px;
+}
+.map-title{
+    color: #161837;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+
+/* phone section */
+
+.phone{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+.phone-image{
+    width: 30px;
+    height: 40px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.phone-des{
+    margin-top: 50px;
+    margin-left: -59px;
+}
+.phone-title{
+    color: #161837;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+/* email section */
+
+
+.email{
+    display: flex;
+    flex-direction: row;
+    margin-top: 7px;
+}
+.email-image{
+    width: 35px;
+    height: 30px;
+    margin-top: 30px;
+    margin-right: 20px;
+}
+.email-des{
+    margin-top: 50px;
+    margin-left: -55px;
+}
+.email-title{
+    color: #161837;
+    font-weight: bold;
+    font-size: 20px;
+    margin-top: 20px;
+}
+

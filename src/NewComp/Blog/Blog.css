@@ -1,0 +1,137 @@
+.news-div{
+    width: auto;
+    height: 650px;
+    background-color: white;
+    color: white;
+    position: relative;
+    top: -400px;
+}
+.news-div .news-title{
+    color: red;
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-weight: bold;
+}
+.news-div .news-subtitle{
+    position: absolute;
+    color: red;
+    top: 40px;
+    left: 30px;
+    font-size: 45px;
+    font-weight: bold;
+}
+.news-div .news-desc{
+    position: absolute;
+    left: 740px;
+    top: 40px;
+    color: black;
+    font-weight: bold;
+}
+
+.news-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+}
+.news-grid .article-div{
+    height: 300px;
+    width: 360px;
+    /* border: 2px solid white; */
+    position: relative;
+    left: 40px;
+    top: 130px;
+}
+.article-div .sub-div{
+    width: 337px;
+    height: 240px;
+    border: 2px solid white;
+    position: absolute;
+    left: 19px;
+    top: 250px;
+    background-color: white;
+}
+.article-div img{
+    height: 300px;
+    width: 360px;
+    position: absolute;
+}
+.article-div .anim-div{
+    height: 300px;
+    width: 360px;
+    position: absolute;
+    /* border: 2px solid black; */
+    /* background-color: aqua; */
+}
+.article-div .sub-circle{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    top: -40px;
+    border-radius: 50px;
+    left: 220px;
+}
+.sub-circle p:first-child{
+    position: absolute;
+    left: 35px;
+    font-size: 30px;
+    top: 15px;
+    font-weight: bold;
+}
+.sub-circle p:last-child{
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    font-size: 25px;
+}
+.sub-div .comments {
+    position: absolute;
+    color: black;
+    top: 30px;
+    font-size: 18px;
+    left: 20px;
+}
+.sub-div .sub-exp{
+    position: absolute;
+    top: 80px;
+    color: black;
+    left: 22px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.article-div .anim-div{
+    position: absolute;
+    height: 300px;
+    width: 360px;
+     /* border: 1px solid purple;  */
+     top: 0px;
+     /* background-color:  #F14837; */
+     /* background-color: rgba(226, 32, 32, 0.5); */
+}
+.article-div:hover .anim-div{
+    background-color: rgba(226, 32, 32, 0.5);
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+.sub-div:hover .anim-div{
+    background-color: rgba(226, 32, 32, 0.5);
+    animation-name: anim;
+    animation-duration: 2s;
+    animation-fill-mode: backwards;
+}
+
+@keyframes anim {
+    from{
+        width: 0px;
+    }
+    to{
+        width: 360px;
+    }
+}
+
+
+
+

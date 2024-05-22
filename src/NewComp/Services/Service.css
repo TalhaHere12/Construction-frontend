@@ -1,0 +1,212 @@
+.services-container {
+    background-color:#F1F4FB;
+    width: 100%;
+    height: 800px;
+    overflow: hidden;
+  }
+.section-title{
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: red;
+    font-weight: bold;
+    margin-top: 70px;
+}
+.services-title{
+    margin-left: 35px;
+    font-size: 50px;
+    color: #2E3D67;
+    margin-top: 20px;
+}
+.services-description{
+    font-size: 20px;
+    margin-left: 38px;
+    margin-top: 40px;
+}
+ .services-grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 60px;
+    scroll-behavior: smooth;
+  }
+  .prev-btn,.next-btn{
+    border: none;
+    width: 40px;
+    padding: 10px;
+    background-color: red;
+  }
+   .next-btn{
+    margin-left: 1180px;
+    position: relative;
+    top: 270px;
+  }
+  .prev-btn{
+    position: relative;
+    top: 270px;
+  } 
+  
+  .service-box {
+    color: pink;
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 350px;
+    position: relative;
+    border-radius: 10px;
+    left: 45px;
+    top: 50px;
+    background-color: white;
+    /* transition: background-position 0.5s ease; */
+  }
+  .service-box h2{
+    margin-top: 30px;
+  }
+  .service-box img{
+    width: 300px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 190px;
+  }
+  .service-img{
+    position:absolute;
+    width: 305px;
+    height: 200px;
+    /* margin-left: 20px; */
+    /* margin-top: 190px; */
+    /* object-fit: cover; */
+    /* border: 2px solid black ; */
+    margin-left: 17px;
+    margin-top: -206px;
+  
+    border-radius: 10px;
+  }
+  
+  /* .service-image {
+    position: absolute;
+    top: 200px;
+    width: 330px;
+    left: 10px;
+  } */
+  /* .service-img{
+    width: 300px;
+    height: auto;
+    position: relative;
+  }
+
+  .service-img img{
+    width: 300px;
+    height: auto;
+    margin-top: 200px;
+    margin-left: 25px;
+  } */
+  /* Box Animation */
+
+  
+
+
+
+
+
+  /* .service-box:hover{
+    animation-name: Box1;
+    animation-duration: 1s;
+    background-color: rgba(150, 0, 0, 0.8);
+  }
+  @keyframes Box1 {
+    from{
+      height: 0%;
+    }
+    to{
+      height: 300px;
+    }
+  } */
+  
+
+  /* .service-img:hover{
+    animation-name: Box2;
+    animation-duration: 1s;
+    color: yellow;
+  }
+
+  @keyframes Box2 {
+    from{
+      width: 0px;
+    }
+    to{
+      width: 300px;
+    }
+    
+  } */
+  .service-box:hover{
+    animation-name: Box1;
+    animation-duration: 1s;
+    background-color: #2E3D67;
+    .box-title{
+        color: white;
+    }
+    .service-img{
+      animation-name: Box2;
+      animation-duration: 1s;
+      /* background-color: rgba(0, 0.8,0, 0.5); */
+      background-color: rgba(226, 32, 32, 0.5);
+    }
+    .read-more{
+        /* display: flex; */
+        /* flex-direction: row; */
+        color: #F1F4FB;
+        opacity: 1;
+    }
+  }
+  .service-box p{
+    font-size: 27px;
+    color: #172B57;
+    font-weight: bold;
+    position: absolute;
+    top: 50px;
+    left: 20px;
+  }
+  .service-img .read-more{
+    position: absolute;
+    top: 140px;
+    opacity: 0;
+    font-size: 20px;
+    transition: opacity 0.3 ease;
+    /* display: flex; */
+    /* flex-direction: row; */
+    color: red;
+    /* left: -1px; */
+  }
+  /* .service-img .read-more:hover{
+    display: flex;
+    flex-direction: row;
+    opacity: 1;
+  } */
+  @keyframes Box1 {
+    from{
+      height: 0px;
+
+    }
+    to{
+      height: 300px;
+
+    }
+    
+  }
+@keyframes Box2 {
+  from{
+    width: 0px;
+  }
+  to{
+    width: 300px;
+  }
+  
+}
+
+
+
+
+
+
+  
+
+   

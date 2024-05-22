@@ -1,0 +1,168 @@
+.header-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .background-image {
+    background-size: cover;
+    width: 100%;
+    height: 820px;
+    position: relative;
+  }
+  
+  .logo-image {
+    position: absolute;
+    right: 1000px;
+    top: 25px;
+  }
+  
+  .bg-image2 {
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 860px;
+    top: 420px;
+  }
+  
+  .person-image {
+    position: absolute;
+    height: 660px;
+    width: 500px;
+    left: 500px;
+    top: 180px;
+  }
+  
+  .nav-links ul {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 25px;
+    text-decoration-line: none;
+  }
+  
+  .nav-links ul li {
+    list-style: none;
+    padding-right: 35px;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .home-details {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 200px;
+    top: 360px;
+  }
+  
+  .title {
+    font-size: 24px;
+    letter-spacing: 8px;
+    font-weight: bold;
+  }
+  
+  .heading-details {
+    display: flex;
+    flex-direction: row;
+    margin-top: -40px;
+  }
+  
+  .heading {
+    font-size: 170px;
+    font-weight: bold;
+    margin-left: -15px;
+    color: white;
+  }
+  
+  .heading-2 {
+    font-size: 170px;
+    color: transparent;
+    -webkit-text-stroke: 2px #fff;
+    font-weight: bold;
+  }
+  
+  .description {
+    color: white;
+    font-size: 20px;
+  }
+  
+  .discover p {
+    color: #fff;
+    margin-top: 30px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+  
+  .discover {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  /* Responsive CSS */
+  @media (max-width: 1200px) {
+    .background-image {
+      height: 650px;
+    }
+  
+    .logo-image {
+      right: 800px;
+    }
+  
+    .bg-image2 {
+      width: 300px;
+      height: 300px;
+      left: 600px;
+      top: 320px;
+    }
+  
+    .person-image {
+      height: 500px;
+      width: 400px;
+      left: 250px;
+      top: 100px;
+    }
+  
+    .nav-links ul {
+      padding-top: 10px;
+    }
+  
+    .nav-links ul li {
+      padding-right: 25px;
+      font-size: 18px;
+    }
+  
+    .home-details {
+      left: 150px;
+      top: 280px;
+    }
+  
+    .title {
+      font-size: 20px;
+      letter-spacing: 6px;
+    }
+  
+    .heading {
+      font-size: 140px;
+    }
+  
+    .heading-2 {
+      font-size: 140px;
+    }
+  
+    .description {
+      font-size: 18px;
+    }
+  
+    .discover p {
+      margin-top: 20px;
+      font-size: 16px;
+    }
+  }
+
+
+
+
+
+
+
+

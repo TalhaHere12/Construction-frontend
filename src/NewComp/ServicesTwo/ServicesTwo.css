@@ -1,0 +1,51 @@
+.s-two{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    /* height: 800px; */
+}
+.bg-img{
+    display: flex;
+    flex-direction: column;
+}
+.bg-image{
+    height: 600px;
+    width: 500px;
+    /* margin-left: 50px; */
+    /* margin-top: -850px; */
+    margin-top: -300px;
+    margin-left: 80px;
+    margin-bottom: 600px;
+}
+.stwo-details{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+.two-title{
+    margin-top: 40px;
+    color: red;
+    font-weight: bold;
+}
+.two-heading{
+    margin-top: -5px;
+    color:#172B57;
+    font-size: 45px;
+}
+.two-desc1{
+    text-align: justify;
+    font-size: 16px;
+    /* margin-top: -5px; */
+    margin-top: 10px;
+}
+.two-ul{
+    margin-left: -20px;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.two-ul li{
+    padding: 8px;
+}

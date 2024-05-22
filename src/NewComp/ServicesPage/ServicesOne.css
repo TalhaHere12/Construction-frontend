@@ -1,0 +1,56 @@
+.ServicesOne{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+.bg{
+    display: flex;
+    flex-direction: column;
+}
+.bgimage{
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 500px;
+    height: 600px;
+}
+.details{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 650px;
+}
+.s-title{
+    margin-left: 5px;
+    /* margin-top: 50px; */
+    color: #F14837;
+    font-weight: bold;
+}
+.s-heading{
+    font-weight: bold;
+    margin-top: -10px;
+    color:#172B57 ;
+    font-size: 45px;
+    margin-top: 20px;
+}
+.desc{
+    text-align: justify;
+    font-size: 19px;
+    margin-top: 10px;
+    color: black;
+}
+.s-lists{
+    margin-left: -20px;
+    font-size: 20px;
+}
+.s-lists li{
+    padding-top: 10px;
+    color: black;
+    margin-left: 35px;
+}
+.s-final{
+    font-weight: bolder;
+    font-size: 18px;
+    color: black;
+    margin-top: 20px;
+}
+

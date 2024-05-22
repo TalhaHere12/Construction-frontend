@@ -1,0 +1,53 @@
+.location .eziline{
+    width: 1263px;
+    height: 340px;
+    border: 0px;
+    /* width: auto; */
+    position: absolute;
+    /* top: -400px; */
+}
+.location{
+    position: relative;
+    height: 400px;
+    width: auto;
+    top: -500px;
+}
+.box9{
+    width: 340px;
+    height: 340px;
+    /* border: 2px solid black; */
+    position: absolute;
+    top: 0px;
+    left: 870px;
+    background-color: #03609D;
+}
+.box9 .address{
+    display: flex;
+    flex-direction: column;
+}
+.box9 .name{
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+.box9 .office-add{
+    color: white;
+    margin-top: 35px;
+    font-size: 18px;
+    margin-left: 40px;
+}.address .line{
+    background-color: white;
+    height: 2px;
+    width: 40px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.address .phone-no{
+    margin-left: 40px;
+    color: white;
+    margin-top: 35px;
+    font-size: 18px;
+    font-weight: bold;
+}
